@@ -3137,12 +3137,15 @@
 				transition-delay: 0s;
 				display: block;
 				margin: 0 0 1.5em 0;
+				
 			}
 
 				#header.alt .logo img {
 					display: block;
 					margin: 0 auto;
 					max-width: 75%;
+					background: rgba(255,255,255,0.2);
+					padding: 8px;
 				}
 
 		@media screen and (max-width: 1280px) {
@@ -3711,10 +3714,10 @@
 		margin: 0 0 3em -2em;
 	}
 
-		#footer > * {
+		/*#footer > * {
 			width: calc(50% - 2em);
 			margin-left: 2em;
-		}
+		}*/
 
 		#footer .copyright {
 			width: 100%;
