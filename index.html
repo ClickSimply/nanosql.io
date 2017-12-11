@@ -5,118 +5,142 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>NanoSQL</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!-- Place this tag in your head or just before your close body tag. -->
-		<script async defer src="https://buttons.github.io/buttons.js"></script>
-		<script src="https://embed.runkit.com"></script>
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-	</head>
-	<body>
-		<a target="_blank" href="https://github.com/ClickSimply/Nano-SQL"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
-		<!-- Wrapper -->
-			<div id="wrapper">
 
-				<!-- Header -->
-					<header id="header" class="alt">
-						<span class="logo"><img src="images/logo.png" alt="" /></span>
-						<p>The most powerful little database<br /><br/>
-						<iframe src="https://ghbtns.com/github-btn.html?user=ClickSimply&repo=Nano-SQL&type=star&count=true&size=large" frameborder="0" scrolling="0" width="125px" height="30px"></iframe>
-					</header>
+<head>
+    <title>NanoSQL</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <script src="https://embed.runkit.com"></script>
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+    <!-- Piwik -->
+    <script type="text/javascript">
+        var _paq = _paq || [];
+        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+            var u = "//stats.clicksimply.com/";
+            _paq.push(['setTrackerUrl', u + 'piwik.php']);
+            _paq.push(['setSiteId', '40']);
+            var d = document,
+                g = d.createElement('script'),
+                s = d.getElementsByTagName('script')[0];
+            g.type = 'text/javascript';
+            g.async = true;
+            g.defer = true;
+            g.src = u + 'piwik.js';
+            s.parentNode.insertBefore(g, s);
+        })();
+    </script>
+    <!-- End Piwik Code -->
+</head>
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul>
-							<li><a href="#intro" class="active">Features</a></li>
-							<li><a href="#first">Install</a></li>
-							<li><a href="#second">Usage</a></li>
-							<li><a href="#cta">Help</a></li>
-						</ul>
-					</nav>
+<body>
+    <a target="_blank" href="https://github.com/ClickSimply/Nano-SQL"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67"
+            alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
+    <!-- Wrapper -->
+    <div id="wrapper">
 
-				<!-- Main -->
-					<div id="main">
+        <!-- Header -->
+        <header id="header" class="alt">
+            <span class="logo"><img src="images/logo.png" alt="" /></span>
+            <p>The most powerful little database<br /><br/>
+                <iframe src="https://ghbtns.com/github-btn.html?user=ClickSimply&repo=Nano-SQL&type=star&count=true&size=large" frameborder="0" scrolling="0" width="125px" height="30px"></iframe>
+        </header>
 
-						<!-- Introduction -->
-							<section id="intro" class="main">
-								<h2 style="text-align:center;">NanoSQL is the fastest and easiest way to get SQL power in your app.</h2>
-								<ul>
-									<li>Offline storage in the browser and LevelDB support come in the box, <i>with the same API</i>.</li>
-									<li>Elegant undo/redo lets you record changes to the database and roll them back and forward on the fly.</li>
-									<li>Keep track of relationships between tables with the powerful ORM system.</li>
-									<li>Runs in Node, IE9+ & modern browsers.</li>
-									<li>Supports Typescript and most RDBMS functions.</li>
-									<li>Secondary indexes, full event system, and more!</li>
-									<li>Just 18Kb!</li>
-								</ul>
-							</section>
+        <!-- Nav -->
+        <nav id="nav">
+            <ul>
+                <li><a href="#intro" class="active">Features</a></li>
+                <li><a href="#first">Install</a></li>
+                <li><a href="#second">Usage</a></li>
+                <li><a href="#cta">Help</a></li>
+            </ul>
+        </nav>
 
-						<!-- First Section -->
-							<section id="first" class="main special">
-								<header class="major">
-										<h1>Install</h1>
-								</header>
-								<h2>Browser</h2>
-								Include the below script in your head<br/>
-								<code>
-&lt;script src="https://unpkg.com/nano-sql@1.0.0/dist/nano-sql.min.js"&gt;&lt;/script&gt;
+        <!-- Main -->
+        <div id="main">
+
+            <!-- Introduction -->
+            <section id="intro" class="main">
+                <h2 style="text-align:center;">NanoSQL is the fastest and easiest way to get SQL power in your app.</h2>
+                <ul>
+                    <li>Offline storage in the browser and LevelDB support come in the box, <i>with the same API</i>.</li>
+                    <li>Elegant undo/redo lets you record changes to the database and roll them back and forward on the fly.</li>
+                    <li>Keep track of relationships between tables with the powerful ORM system.</li>
+                    <li>Runs in Node, IE9+ & modern browsers.</li>
+                    <li>Supports Typescript and most RDBMS functions.</li>
+                    <li>Secondary indexes, full event system, and more!</li>
+                    <li>Just 18Kb!</li>
+                </ul>
+            </section>
+
+            <!-- First Section -->
+            <section id="first" class="main special">
+                <header class="major">
+                    <h1>Install</h1>
+                </header>
+                <h2>Browser</h2>
+                Include the below script in your head<br/>
+                <code>
+&lt;script src="https://cdn.jsdelivr.net/npm/nano-sql@1.0.0/dist/nano-sql.min.js"&gt;&lt;/script&gt;
 								</code>
-								<br/><br/>
-								<h2>NodeJS/Webpack</h2>
-								1. Run <code>npm install nano-sql --save</code><br/>
-								2. Include in your app
-								<code>import { nSQL } from "nano-sql"</code>
-							</section>
+                <br/><br/>
+                <h2>NodeJS/Webpack</h2>
+                1. Run <code>npm install nano-sql --save</code><br/> 2. Include in your app
+                <code>import { nSQL } from "nano-sql"</code>
+            </section>
 
-						<!-- Second Section -->
-							<section id="second" class="main special">
-								<header class="major">
-									<h1>Usage</h1>
-								</header>
-								<h2>Use With An Array Objects</h2>
-								<p data-height="269" data-theme-id="light" data-slug-hash="NXKGpw" data-default-tab="js,result" data-user="clicksimply" data-embed-version="2" data-pen-title="NanoSQL Example 1" class="codepen">See the Pen <a href="https://codepen.io/clicksimply/pen/NXKGpw/">NanoSQL Example 1</a> by Scott Lott (<a href="https://codepen.io/clicksimply">@clicksimply</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-								<br/><br/>
-								<h2>Use As A Database</h2>
-								<p data-height="505" data-theme-id="light" data-slug-hash="zpOrzB" data-default-tab="js,result" data-user="clicksimply" data-embed-version="2" data-pen-title="NanoSQL Example 2" class="codepen">See the Pen <a href="https://codepen.io/clicksimply/pen/zpOrzB/">NanoSQL Example 2</a> by Scott Lott (<a href="https://codepen.io/clicksimply">@clicksimply</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-								<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-							</section>
+            <!-- Second Section -->
+            <section id="second" class="main special">
+                <header class="major">
+                    <h1>Usage</h1>
+                </header>
+                <h2>Use With An Array Objects</h2>
+                <p data-height="269" data-theme-id="light" data-slug-hash="NXKGpw" data-default-tab="js,result" data-user="clicksimply" data-embed-version="2" data-pen-title="NanoSQL Example 1" class="codepen">See the Pen <a href="https://codepen.io/clicksimply/pen/NXKGpw/">NanoSQL Example 1</a> by Scott Lott (<a href="https://codepen.io/clicksimply">@clicksimply</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+                <br/><br/>
+                <h2>Use As A Database</h2>
+                <p data-height="505" data-theme-id="light" data-slug-hash="zpOrzB" data-default-tab="js,result" data-user="clicksimply" data-embed-version="2" data-pen-title="NanoSQL Example 2" class="codepen">See the Pen <a href="https://codepen.io/clicksimply/pen/zpOrzB/">NanoSQL Example 2</a> by Scott Lott (<a href="https://codepen.io/clicksimply">@clicksimply</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+                <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+            </section>
 
-						<!-- Get Started -->
-							<section id="cta" class="main special">
-								<h1>Get Help</h1>
-								<footer class="major">
-									<ul class="actions">
-										<li><a target="_blank" href="https://docs.nanosql.io/" class="button special">Documentation</a></li>
-										<li><a target="_blank" href="https://github.com/ClickSimply/Nano-SQL/issues" class="button">GitHub</a></li>
-									</ul>
-								</footer>
-							</section>
+            <!-- Get Started -->
+            <section id="cta" class="main special">
+                <h1>Get Help</h1>
+                <footer class="major">
+                    <ul class="actions">
+                        <li><a target="_blank" href="https://docs.nanosql.io/" class="button special">Documentation</a></li>
+                        <li><a target="_blank" href="https://github.com/ClickSimply/Nano-SQL/issues" class="button">GitHub</a></li>
+                    </ul>
+                </footer>
+            </section>
 
-					</div>
+        </div>
 
-				<!-- Footer -->
-				<footer id="footer">
-					<center style="width: 100%">
-						<h2><a target="_blank" href="https://github.com/ClickSimply/Nano-SQL">★ NanoSQL on GitHub!</a></h2>
-					</center>
-					<p class="copyright">&copy; Scott Lott. Design: <a target="_blank" href="https://html5up.net">HTML5 UP</a>.</p>
-				</footer>
+        <!-- Footer -->
+        <footer id="footer">
+            <center style="width: 100%">
+                <h2><a target="_blank" href="https://github.com/ClickSimply/Nano-SQL">★ NanoSQL on GitHub!</a></h2>
+            </center>
+            <p class="copyright">&copy; Scott Lott. Design: <a target="_blank" href="https://html5up.net">HTML5 UP</a>.</p>
+        </footer>
 
-			</div>
+    </div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="assets/js/main.js"></script>
 
-	</body>
+</body>
+
 </html>
